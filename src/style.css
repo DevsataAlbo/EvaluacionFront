@@ -1,0 +1,55 @@
+boby {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardHero {
+    width: 18rem;
+}
+
+.cardHeroPage {
+    width: 60rem;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.imgCardHeroPage {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.bodyCardHeroPage {
+    width: 200px;
+    padding: 0;
+    margin: 0 0 0 20px ;
+}
+
+.fondo-login {
+    background-image: url(/assets/heroes/fondo_login.jpg);
+    background-color: #6d6c6d;
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+
+.fondo-home {
+    background-image: url(/assets/heroes/fondo_login.jpg);
+    background-color: #6d6c6d;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    height: 80vh;
+}
+
+.titulo_homePage {
+    text-shadow: 2px 2px 10px #faf6fa;
+}
